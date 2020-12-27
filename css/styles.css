@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+/** Globales **/
+
+.contenedor {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+
+/** Utilidades **/
+
+.centrar-texto {
+    text-align: center;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+
+/** Header **/
+
+.imagen {
+    margin: 2rem auto 5rem auto;
+}
+
+.barra {
+    background-color: #db008d;
+}
+
+.barra nav {
+    width: 100%;
+}
+
+.navegacion a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2.2rem;
+    display: block;
+    text-align: center;
+}
+
+.navegacion a:hover {
+    background-color: #00b9e5;
+}
+
+@media (min-width: 768px) {
+    .navegacion a {
+        margin-right: 1.5rem;
+        padding: 1.5rem;
+        display: inline-block;
+        text-align: center;
+    }
+    .navegacion a:last-of-type {
+        margin-right: 0;
+    }
+}
+
+
+/** Contenido Principal **/
+
+.entradas-blog {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.entrada-blog {
+    border: 1px solid #e1e1e1;
+    margin-bottom: 2rem;
+    background-color: #f1f1f1;
+}
+
+.entrada-blog:last-of-type {
+    margin-bottom: 0;
+}
+
+.entrada-blog h2 {
+    color: #eda400;
+    text-align: center;
+    margin: 0;
+}
+
+.entrada-blog img {
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
